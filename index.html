@@ -15,6 +15,7 @@
             <li>Microwave</li>
             <li>Kettle</li>
         </ul>
+        <h3>Cars</h3>
     </main>
 </body>
 </html>
@@ -54,16 +55,33 @@
 9a>>git log
 
 10. Now create a new branch, called cars, and change into it(both answers required)
+10a>>
+>git checkout -b cars
+/
+>git branch cars
+>git switch cars
 
 11. Create a text file and add the following text to it. 
 " I like cars.
 
   Go vroom vroom in me mum's car.
 "(british accent)  
+11a>>
+>echo '"I like cars' > textfile.txt
+>echo "" >> textfile.txt
+>echo '  Go vroom vroom in me mum''s car."' >> textfile.txt   
+>echo "(british accent)" >> textfile.txt
 
 12. Now add a h3 tag, with text 'Cars', below the electronic list items in the index.html.(No command needed)
+12a>>above
 
 13. Now stage and push the files. Dont forget to create a pull request and update the code on your local machine.
+13a>>
+>git add .
+>git commit -m "Q12) textfile added and the h3 heading"
+>git push
+
+
 
 14. After the merge has been successful, what command can we type to delete the 'cars' branch on github only?
 
