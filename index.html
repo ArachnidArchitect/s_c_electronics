@@ -106,12 +106,25 @@
 >git clean -f
 
 20. Create a new branch...Stage your files and push the changes. Don't forget to create a pull request.
+20a>>
+>git checkout -b newEnvironment
+>git add .
+>git commit -m "create a new branch"
+>git push
+>git switch main
+>git pull
 
 21. While in main, What command can we run to check if there are changes to the remote repository, then download all objects and references from a specific repository without merging.
+21a>> git fetch
 
 22. If you wanted to undo the commit, what command would we type ?
+22a>> git revert
 
 23. Instead of doing the command in question 22, what other command can we run? HINT: 'reset'.
+23a>> git reset --hard
 
 24. What is the difference between the answer if Question 22 and Question 23?
-Hmm....curiousity (づ￣ 3￣)づ -->
+Hmm....curiousity (づ￣ 3￣)づ
+
+24a>>git revert is a safer way of reverting the changes made. git reset --hard is permanent 
+--> 
